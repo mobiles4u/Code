@@ -16,263 +16,263 @@ export default function Home() {
 
       <main className={styles.main}>
 
-        <div class={styles.Container}>
-          <div class={styles.Container__Header}>
-            <div class={styles.Container_Logo}>
+        <div className={styles.Container}>
+          <div className={styles.Container__Header}>
+            <div className={styles.Container_Logo}>
               <h2>Mobile4u</h2>
             </div>
-            <div class={styles.Container_SearchBar}>
+            <div className={styles.Container_SearchBar}>
               <h3>Search Bar</h3>
             </div>
           </div>
-          <div class={styles.Container__Navbar}>
-            <div class={styles.Container_Item}>News</div>
-            <div class={styles.Container_Item}>Home</div>
-            <div class={styles.Container_Item}>Rumours</div>
-            <div class={styles.Container_Item}>Compare</div>
-            <div class={styles.Container_Item}>Contact</div>
-            <div class={styles.Container_Item}>Reviews</div>
+          <div className={styles.Container__Navbar}>
+            <div className={styles.Container_Item}>News</div>
+            <div className={styles.Container_Item}>Home</div>
+            <div className={styles.Container_Item}>Rumours</div>
+            <div className={styles.Container_Item}>Compare</div>
+            <div className={styles.Container_Item}>Contact</div>
+            <div className={styles.Container_Item}>Reviews</div>
           </div>
 
 
           <div className={styles.content}>
             <div className={styles.contentPage}>
-              <div class={styles.ad}>Space for Banner</div>
+              <div className={styles.ad}>Space for Banner</div>
 
-              <div class={styles.componentHeadings}><h3>Latest News</h3>
+              <div className={styles.componentHeadings}><h3>Latest News</h3>
                 <h3>Views All</h3></div>
-              <div class={styles.component1}>
+              <div className={styles.component1}>
                 <div className={styles.componentContainer}>
-                  <div class={styles.News}>News
+                  <div className={styles.News}>News
                   </div>
-                  <div class={styles.NewsAll}>
-                    <div class={styles.news1}>Veiw All News
+                  <div className={styles.NewsAll}>
+                    <div className={styles.news1}>Veiw All News
                     </div>
-                    <div class={styles.news2}>Veiw All News
-                    </div>
-                  </div>
-                </div>
-                <div class={styles.TopBrands}>Top Brands
-                </div>
-              </div>
-
-              <div class={styles.componentHeadings}><h3>Upcoming Mobiles</h3>
-                <h3>Views All</h3></div>
-              <div class={styles.component2}>
-                <div className={styles.componentContainer}>
-                  <div class={styles.component}>
-                    <div class={styles.subcomponent}></div>
-                    <div>Name</div>
-                  </div>
-
-                  <div class={styles.component}>
-                    <div class={styles.subcomponent}></div>
-                    <div>Name</div>
-                  </div>
-
-                  <div class={styles.component}>
-                    <div class={styles.subcomponent}></div>
-                    <div>Name</div>
-                  </div>
-
-                  <div class={styles.component}>
-                    <div class={styles.subcomponent}></div>
-                    <div>Name</div>
-                  </div>
-
-                  <div class={styles.component}>
-                    <div class={styles.subcomponent}></div>
-                    <div>Name</div>
-                  </div>
-
-                  <div class={styles.component}>
-                    <div class={styles.subcomponent}></div>
-                    <div>Name</div>
-                  </div>
-
-
-                </div>
-                <div class={styles.TopBrands}>Top Brands
-                </div>
-              </div>
-
-              <div class={styles.componentHeadings}><h3>Latest Mobiles</h3>
-                <h3>Views All</h3></div>
-              <div class={styles.component2}>
-                <div className={styles.componentContainer}>
-                  <div class={styles.component}>
-                    <div class={styles.subcomponent}></div>
-                    <div>Name</div>
-                  </div>
-
-                  <div class={styles.component}>
-                    <div class={styles.subcomponent}></div>
-                    <div>Name</div>
-                  </div>
-
-                  <div class={styles.component}>
-                    <div class={styles.subcomponent}></div>
-                    <div>Name</div>
-                  </div>
-
-                  <div class={styles.component}>
-                    <div class={styles.subcomponent}></div>
-                    <div>Name</div>
-                  </div>
-
-                  <div class={styles.component}>
-                    <div class={styles.subcomponent}></div>
-                    <div>Name</div>
-                  </div>
-
-                  <div class={styles.component}>
-                    <div class={styles.subcomponent}></div>
-                    <div>Name</div>
-                  </div>
-
-
-                </div>
-                <div class={styles.TopBrands}>Top Brands
-                </div>
-              </div>
-
-              <div class={styles.componentHeadings}><h3>Mobile Prices 60,000 Rs. to 80,000 Rs. </h3>
-                <h3>Views All</h3></div>
-              <div class={styles.component2}>
-                <div className={styles.componentContainer}>
-                  <div class={styles.component}>
-                    <div class={styles.subcomponent}></div>
-                    <div>Name</div>
-                  </div>
-
-                  <div class={styles.component}>
-                    <div class={styles.subcomponent}></div>
-                    <div>Name</div>
-                  </div>
-
-                  <div class={styles.component}>
-                    <div class={styles.subcomponent}></div>
-                    <div>Name</div>
-                  </div>
-
-                  <div class={styles.component}>
-                    <div class={styles.subcomponent}></div>
-                    <div>Name</div>
-                  </div>
-
-                  <div class={styles.component}>
-                    <div class={styles.subcomponent}></div>
-                    <div>Name</div>
-                  </div>
-
-                  <div class={styles.component}>
-                    <div class={styles.subcomponent}></div>
-                    <div>Name</div>
-                  </div>
-
-
-                </div>
-                <div class={styles.TopBrands}>Top Brands
-                </div>
-              </div>
-
-
-              <div class={styles.componentHeadings}><h3>Mobile Prices 80,000 Rs. to 100,000 Rs.</h3>
-                <h3>Views All</h3></div>
-              <div class={styles.component2}>
-                <div className={styles.componentContainer}>
-                  <div class={styles.component}>
-                    <div class={styles.subcomponent}></div>
-                    <div>Name</div>
-                  </div>
-
-                  <div class={styles.component}>
-                    <div class={styles.subcomponent}></div>
-                    <div>Name</div>
-                  </div>
-
-                  <div class={styles.component}>
-                    <div class={styles.subcomponent}></div>
-                    <div>Name</div>
-                  </div>
-
-                  <div class={styles.component}>
-                    <div class={styles.subcomponent}></div>
-                    <div>Name</div>
-                  </div>
-
-                  <div class={styles.component}>
-                    <div class={styles.subcomponent}></div>
-                    <div>Name</div>
-                  </div>
-
-                  <div class={styles.component}>
-                    <div class={styles.subcomponent}></div>
-                    <div>Name</div>
-                  </div>
-
-
-                </div>
-                <div class={styles.TopBrands}>Top Brands
-                </div>
-              </div>
-
-
-              <div class={styles.componentHeadings}><h3>Mobile Prices > 100,000 Rs.</h3>
-                <h3>Views All</h3></div>
-              <div class={styles.component2}>
-                <div className={styles.componentContainer}>
-                  <div class={styles.component}>
-                    <div class={styles.subcomponent}></div>
-                    <div>Name</div>
-                  </div>
-
-                  <div class={styles.component}>
-                    <div class={styles.subcomponent}></div>
-                    <div>Name</div>
-                  </div>
-
-                  <div class={styles.component}>
-                    <div class={styles.subcomponent}></div>
-                    <div>Name</div>
-                  </div>
-
-                  <div class={styles.component}>
-                    <div class={styles.subcomponent}></div>
-                    <div>Name</div>
-                  </div>
-
-                  <div class={styles.component}>
-                    <div class={styles.subcomponent}></div>
-                    <div>Name</div>
-                  </div>
-
-                  <div class={styles.component}>
-                    <div class={styles.subcomponent}></div>
-                    <div>Name</div>
-                  </div>
-
-
-                </div>
-                <div class={styles.TopBrands}>Top Brands
-                </div>
-              </div>
-
-
-              <div class={styles.componentHeadings}><h3>Latest News</h3>
-                <h3>Views All</h3></div>
-              <div class={styles.component1}>
-                <div className={styles.componentContainer}>
-                  <div class={styles.News}>News
-                  </div>
-                  <div class={styles.NewsAll}>
-                    <div class={styles.news1}>Veiw All News
-                    </div>
-                    <div class={styles.news2}>Veiw All News
+                    <div className={styles.news2}>Veiw All News
                     </div>
                   </div>
                 </div>
-                {/* <div class={styles.TopBrands}>Top Brands
+                <div className={styles.TopBrands}>Top Brands
+                </div>
+              </div>
+
+              <div className={styles.componentHeadings}><h3>Upcoming Mobiles</h3>
+                <h3>Views All</h3></div>
+              <div className={styles.component2}>
+                <div className={styles.componentContainer}>
+                  <div className={styles.component}>
+                    <div className={styles.subcomponent}></div>
+                    <div>Name</div>
+                  </div>
+
+                  <div className={styles.component}>
+                    <div className={styles.subcomponent}></div>
+                    <div>Name</div>
+                  </div>
+
+                  <div className={styles.component}>
+                    <div className={styles.subcomponent}></div>
+                    <div>Name</div>
+                  </div>
+
+                  <div className={styles.component}>
+                    <div className={styles.subcomponent}></div>
+                    <div>Name</div>
+                  </div>
+
+                  <div className={styles.component}>
+                    <div className={styles.subcomponent}></div>
+                    <div>Name</div>
+                  </div>
+
+                  <div className={styles.component}>
+                    <div className={styles.subcomponent}></div>
+                    <div>Name</div>
+                  </div>
+
+
+                </div>
+                <div className={styles.TopBrands}>Top Brands
+                </div>
+              </div>
+
+              <div className={styles.componentHeadings}><h3>Latest Mobiles</h3>
+                <h3>Views All</h3></div>
+              <div className={styles.component2}>
+                <div className={styles.componentContainer}>
+                  <div className={styles.component}>
+                    <div className={styles.subcomponent}></div>
+                    <div>Name</div>
+                  </div>
+
+                  <div className={styles.component}>
+                    <div className={styles.subcomponent}></div>
+                    <div>Name</div>
+                  </div>
+
+                  <div className={styles.component}>
+                    <div className={styles.subcomponent}></div>
+                    <div>Name</div>
+                  </div>
+
+                  <div className={styles.component}>
+                    <div className={styles.subcomponent}></div>
+                    <div>Name</div>
+                  </div>
+
+                  <div className={styles.component}>
+                    <div className={styles.subcomponent}></div>
+                    <div>Name</div>
+                  </div>
+
+                  <div className={styles.component}>
+                    <div className={styles.subcomponent}></div>
+                    <div>Name</div>
+                  </div>
+
+
+                </div>
+                <div className={styles.TopBrands}>Top Brands
+                </div>
+              </div>
+
+              <div className={styles.componentHeadings}><h3>Mobile Prices 60,000 Rs. to 80,000 Rs. </h3>
+                <h3>Views All</h3></div>
+              <div className={styles.component2}>
+                <div className={styles.componentContainer}>
+                  <div className={styles.component}>
+                    <div className={styles.subcomponent}></div>
+                    <div>Name</div>
+                  </div>
+
+                  <div className={styles.component}>
+                    <div className={styles.subcomponent}></div>
+                    <div>Name</div>
+                  </div>
+
+                  <div className={styles.component}>
+                    <div className={styles.subcomponent}></div>
+                    <div>Name</div>
+                  </div>
+
+                  <div className={styles.component}>
+                    <div className={styles.subcomponent}></div>
+                    <div>Name</div>
+                  </div>
+
+                  <div className={styles.component}>
+                    <div className={styles.subcomponent}></div>
+                    <div>Name</div>
+                  </div>
+
+                  <div className={styles.component}>
+                    <div className={styles.subcomponent}></div>
+                    <div>Name</div>
+                  </div>
+
+
+                </div>
+                <div className={styles.TopBrands}>Top Brands
+                </div>
+              </div>
+
+
+              <div className={styles.componentHeadings}><h3>Mobile Prices 80,000 Rs. to 100,000 Rs.</h3>
+                <h3>Views All</h3></div>
+              <div className={styles.component2}>
+                <div className={styles.componentContainer}>
+                  <div className={styles.component}>
+                    <div className={styles.subcomponent}></div>
+                    <div>Name</div>
+                  </div>
+
+                  <div className={styles.component}>
+                    <div className={styles.subcomponent}></div>
+                    <div>Name</div>
+                  </div>
+
+                  <div className={styles.component}>
+                    <div className={styles.subcomponent}></div>
+                    <div>Name</div>
+                  </div>
+
+                  <div className={styles.component}>
+                    <div className={styles.subcomponent}></div>
+                    <div>Name</div>
+                  </div>
+
+                  <div className={styles.component}>
+                    <div className={styles.subcomponent}></div>
+                    <div>Name</div>
+                  </div>
+
+                  <div className={styles.component}>
+                    <div className={styles.subcomponent}></div>
+                    <div>Name</div>
+                  </div>
+
+
+                </div>
+                <div className={styles.TopBrands}>Top Brands
+                </div>
+              </div>
+
+
+              <div className={styles.componentHeadings}><h3>Mobile Prices > 100,000 Rs.</h3>
+                <h3>Views All</h3></div>
+              <div className={styles.component2}>
+                <div className={styles.componentContainer}>
+                  <div className={styles.component}>
+                    <div className={styles.subcomponent}></div>
+                    <div>Name</div>
+                  </div>
+
+                  <div className={styles.component}>
+                    <div className={styles.subcomponent}></div>
+                    <div>Name</div>
+                  </div>
+
+                  <div className={styles.component}>
+                    <div className={styles.subcomponent}></div>
+                    <div>Name</div>
+                  </div>
+
+                  <div className={styles.component}>
+                    <div className={styles.subcomponent}></div>
+                    <div>Name</div>
+                  </div>
+
+                  <div className={styles.component}>
+                    <div className={styles.subcomponent}></div>
+                    <div>Name</div>
+                  </div>
+
+                  <div className={styles.component}>
+                    <div className={styles.subcomponent}></div>
+                    <div>Name</div>
+                  </div>
+
+
+                </div>
+                <div className={styles.TopBrands}>Top Brands
+                </div>
+              </div>
+
+
+              <div className={styles.componentHeadings}><h3>Latest News</h3>
+                <h3>Views All</h3></div>
+              <div className={styles.component1}>
+                <div className={styles.componentContainer}>
+                  <div className={styles.News}>News
+                  </div>
+                  <div className={styles.NewsAll}>
+                    <div className={styles.news1}>Veiw All News
+                    </div>
+                    <div className={styles.news2}>Veiw All News
+                    </div>
+                  </div>
+                </div>
+                {/* <div className={styles.TopBrands}>Top Brands
                 </div> */}
               </div>
 
@@ -285,30 +285,30 @@ export default function Home() {
           </div>
         </div>
 
-        <div class={styles.footer}>
-          <div class={styles.domainname}>Mobile4u</div>
-          <div class={styles.links}>
-            <div class={styles.colLinks}>
+        <div className={styles.footer}>
+          <div className={styles.domainname}>Mobile4u</div>
+          <div className={styles.links}>
+            <div className={styles.colLinks}>
               <div>info</div>
               <div>get in touch</div>
               <div>social</div>
               <div>what we offer</div>
             </div>
-            <div class={styles.colLinks}>
+            <div className={styles.colLinks}>
               <div>about us</div>
               <div>contact us</div>
               <div>facebook</div>
               <div>mobile phones</div>
             </div>
 
-            <div class={styles.colLinks}>
+            <div className={styles.colLinks}>
               <div>FAQs</div>
               <div>advertise</div>
               <div>twitter</div>
               <div>news</div>
             </div>
 
-            <div class={styles.colLinks}>
+            <div className={styles.colLinks}>
               <div>blogs</div>
               <div>careers</div>
               <div>linkedIn</div>
@@ -317,9 +317,9 @@ export default function Home() {
 
           </div>
 
-          <div class={styles.copyright}>
-            <div class={styles.copyright1}>copyright c 2022 , Mobile4u.com</div>
-            <div class={styles.terms}>
+          <div className={styles.copyright}>
+            <div className={styles.copyright1}>copyright c 2022 , Mobile4u.com</div>
+            <div className={styles.terms}>
               <div>terms </div>
               <div>policy </div>
               <div>sitemap </div>
