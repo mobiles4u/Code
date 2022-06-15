@@ -1,9 +1,12 @@
 .main {
   color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
 }
 
-.Container {}
+.Container {width: 55%;}
 
 .Container__Header {
   display: flex;
@@ -46,7 +49,7 @@
 }
 
 .contentPage {
-  width: 70%;
+  width: 100%;
 
 }
 
