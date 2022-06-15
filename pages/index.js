@@ -136,7 +136,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className={styles.componentHeadings}><h3>Mobile Prices 60,000 Rs. to 80,000 Rs. </h3>
+              <div className={styles.componentHeadings}><h3>Mobile Prices 60,000Rs to 80,000 Rs. </h3>
                 <h3>Views All</h3></div>
               <div className={styles.component2}>
                 <div className={styles.componentContainer}>
@@ -218,7 +218,7 @@ export default function Home() {
               </div>
 
 
-              <div className={styles.componentHeadings}><h3>Mobile Prices > 100,000 Rs.</h3>
+              <div className={styles.componentHeadings}><h3>Mobile Prices above 100,000 Rs.</h3>
                 <h3>Views All</h3></div>
               <div className={styles.component2}>
                 <div className={styles.componentContainer}>
