@@ -22,7 +22,7 @@ export default function Home() {
               <h2>Mobile4u</h2>
             </div>
             <div className={styles.Container_SearchBar}>
-              <h3>Search Bar</h3>
+            <input type="text" placeholder="Search.." name="search"/>
             </div>
           </div>
           <div className={styles.Container__Navbar}>
