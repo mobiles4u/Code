@@ -25,6 +25,7 @@ export default function Home() {
             <input type="text" placeholder="Search.." name="search"/>
             </div>
           </div>
+          <div className={styles.ContainerNavbar}>
           <div className={styles.Container__Navbar}>
             <div className={styles.Container_Item}>News</div>
             <div className={styles.Container_Item}>Home</div>
@@ -32,6 +33,7 @@ export default function Home() {
             <div className={styles.Container_Item}>Compare</div>
             <div className={styles.Container_Item}>Contact</div>
             <div className={styles.Container_Item}>Reviews</div>
+          </div>
           </div>
 
 
