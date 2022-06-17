@@ -19,20 +19,20 @@ export default function Home() {
         <div className={styles.Container}>
           <div className={styles.Container__Header}>
             <div className={styles.Container_Logo}>
-              <h2>Mobile4u</h2>
+              <h2>Mobiles4u</h2>
             </div>
             <div className={styles.Container_SearchBar}>
-            <input type="text" placeholder="Search.." name="search"/>
+            <input type="text" placeholder="Search here" name="search"/>
             </div>
           </div>
           <div className={styles.ContainerNavbar}>
           <div className={styles.Container__Navbar}>
-            <div className={styles.Container_Item}>News</div>
             <div className={styles.Container_Item}>Home</div>
-            <div className={styles.Container_Item}>Rumours</div>
+            <div className={styles.Container_Item}>News</div>
+            <div className={styles.Container_Item}>Reviews</div>
+            <div className={styles.Container_Item}>Rumors</div>
             <div className={styles.Container_Item}>Compare</div>
             <div className={styles.Container_Item}>Contact</div>
-            <div className={styles.Container_Item}>Reviews</div>
           </div>
           </div>
 
