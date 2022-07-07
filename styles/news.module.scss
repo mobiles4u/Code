@@ -1,0 +1,282 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: small;
+
+    &__main {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+
+        &__content {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+
+            &__mainleft {
+                width: 70%;
+
+                &__title {
+                    font-size: xx-large;
+                    font-weight: bold;
+                    color: white;
+                    background-color: rgb(178, 48, 48);
+                }
+
+                &__pagecontent {
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 5px 0px;
+                    margin-top: 5px 0px;
+
+                    &__pic {
+                        width: 26%;
+                        border: 1px solid black;
+
+                        &__buttons {
+                            display: flex;
+                            width: 100%;
+
+                            &__button {
+                                width: 100%;
+                            }
+                        }
+                    }
+
+                    &__info {
+                        width: 70%;
+                        display: flex;
+                        flex-direction: column;
+
+                        &__price {
+                            display: flex;
+                            flex-direction: column;
+                            color: red;
+                            font-size: larger;
+                            font-weight: bold;
+                            border-bottom: 1px solid black;
+                        }
+
+                        &__description {
+                            border-bottom: 1px solid black;
+
+                            &__ptag {
+                                text-align: center;
+                            }
+                        }
+
+                        &__specs {
+                            &__heading {
+                                display: flex;
+                                justify-content: space-between;
+
+                                &__link {
+                                    cursor: pointer;
+                                    color: red;
+                                }
+                            }
+
+                            &__andriodV {
+                                color: rgb(100, 100, 100);
+                            }
+
+                            &__keypoints {
+                                width: 100%;
+                                border-bottom: 1px solid black;
+                                font-size: small;
+                                display: flex;
+                                justify-content: space-around;
+
+                                &__ul {
+                                    margin: 0px 1px;
+                                    width: 24%;
+
+                                    &__li {
+                                        white-space: nowrap;
+                                        width: 100px;
+                                        overflow: hidden;
+                                        text-overflow: ellipsis;
+                                        padding: 1px 2px;
+                                        background-color: rgb(251, 251, 251);
+                                        cursor: pointer;
+
+                                    }
+
+                                    &__rating {
+                                        color: rgb(47, 198, 57);
+                                    }
+
+                                }
+                            }
+
+                            &__moreinfos {
+                                display: flex;
+                                justify-content: space-evenly;
+
+                                &__moreinfo {}
+                            }
+                        }
+
+                        &__compare {
+                            display: flex;
+                            justify-content: space-between;
+
+                            &__comdiv {
+                                margin: 5px;
+                                background-color: aqua;
+                                width: 30%;
+
+                                &__butn {
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+
+                    &__center {
+                        background-color: rgb(248, 246, 246);
+                        float: right;
+                        width: 70%;
+                        display: flex;
+                        justify-content: space-between;
+                        padding: 5px;
+                    }
+
+
+                }
+
+
+            }
+
+            &__mainright {
+                width: 25%;
+            }
+
+            &__mainleft1 {
+                background-color: rgb(255, 255, 255);
+                width: 70%;
+                display: flex;
+                justify-content: flex-end;
+
+                &__center {
+                    background-color: rgb(255, 255, 255);
+                    width: 70%;
+                    display: flex;
+                    padding: 5px;
+
+                    &__table {
+                        font-family: Arial, Helvetica, sans-serif;
+                        border-collapse: collapse;
+                        width: 100%;
+
+                        :hover {
+                            background-color: rgb(246, 246, 246);
+                        }
+                        // &:nth-child(even) {
+                        //     background-color: #ffffff;
+                        // }
+                        // &:nth-child(odd) {
+                        //     background-color: rgb(240, 240, 240);
+                        // }
+
+                        &__tr {
+                            margin: 5px 10px;
+                          
+                            &__tdTitle {
+                                width: 15%;
+                                padding: 8px;
+                                border-bottom: 1px solid rgb(241, 237, 237);
+                            }
+
+                            &__tdSubtitle {
+                                width: 25%;
+                                padding: 8px;
+                                border-bottom: 1px solid rgb(241, 237, 237);
+                            }
+
+                            &__tdDesc {
+                                width: 60%;
+                                padding: 8px;
+                                border-bottom: 1px solid rgb(241, 237, 237);
+                            }
+
+                        }
+
+
+                    }
+                }
+
+              
+            }
+            &__mainright1 {
+                width: 25%;
+                background-color: rgb(255, 255, 255);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+    
+                &__rdevices{
+                    width: 100%;
+                    height: 50%;
+                    border: 1px solid black;
+                    margin-top: 10px;
+    
+                }
+                &__ldevices{
+                    width: 100%;
+                    margin-bottom: 10px;
+                    height: 50%;
+                    border: 1px solid black;
+
+    
+                }
+            }
+
+            &__mainleft2{
+                background-color: rgb(255, 255, 255);
+                width: 70%;
+                display: flex;
+                justify-content: flex-end;
+
+                &__center {
+                    background-color: rgb(255, 255, 255);
+                    width: 70%;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 5px;
+
+                }
+
+              
+            }
+            &__mainright2 {
+                width: 25%;
+                background-color: rgb(255, 255, 255);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+    
+                &__rdevices{
+                    width: 100%;
+                    height: 50%;
+                    border: 1px solid black;
+                    margin-top: 10px;
+    
+                }
+                &__ldevices{
+                    width: 100%;
+                    margin-bottom: 10px;
+                    height: 50%;
+                    border: 1px solid black;
+
+    
+                }
+            }
+        }
+
+      
+    }
+
+
+}

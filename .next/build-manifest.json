@@ -20,6 +20,26 @@
       "static/chunks/main.js",
       "static/chunks/pages/index.js"
     ],
+    "/AboutUs": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/AboutUs.js"
+    ],
+    "/Careers": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/Careers.js"
+    ],
+    "/News": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/News.js"
+    ],
+    "/PrivacyPolicy": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/PrivacyPolicy.js"
+    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",

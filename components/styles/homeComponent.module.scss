@@ -1,0 +1,62 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    &__componentHeadings {
+        cursor: pointer;
+        display: flex;
+        width: 70%;
+        justify-content: space-between;
+        font-size: large;
+        font-weight: 600;
+    }
+
+    &__component {
+        display: flex;
+        justify-content: space-between;
+
+        &__left {
+            width: 70%;
+            display: flex;
+            justify-content: space-between;
+
+            &__bigcontainer {
+                height: 200px;
+                border: 1px solid black;
+                width: 70%;
+                border-radius: 7px;
+
+            }
+
+            &__smallcontainer {
+                height: 200px;
+                width: 25%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                &__upper {
+                    height: 90px;
+                    border: 1px solid black;
+                    width: 100%;
+                    border-radius: 7px;
+
+                }
+
+                &__lower {
+                    height: 90px;
+                    border: 1px solid black;
+                    width: 100%;
+                    border-radius: 7px;
+
+
+                }
+            }
+        }
+
+        &__right {
+            height: 200px;
+            border: 1px solid black;
+            width: 25%;
+        }
+    }
+}
