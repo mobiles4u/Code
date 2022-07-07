@@ -1,0 +1,241 @@
+.main {
+  color: black;
+
+}
+
+.Container {
+width: 100%;
+}
+
+.Container__Header {
+  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  color: aliceblue;
+  padding: 5px;
+
+
+}
+
+.Container_Logo {
+  padding: 5px 15px;
+}
+
+.Container_SearchBar {
+  padding: 5px 15px;
+
+}
+.Container_SearchBar input {
+  border-radius: 10px;
+}
+
+.ContainerNavbar{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.Container__Navbar {
+  width: 68%;
+  padding: 5px;
+  display: flex;
+  color: rgb(0, 0, 0);
+  justify-content: space-evenly;
+  border-bottom: 1px solid black;
+  background-color: rgb(255, 255, 255);
+}
+
+.ad {
+  margin: 10px;
+  height: 200px;
+  padding: 10px;
+  border: solid 1px black;
+  background-color: rgb(255, 255, 255);
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.contentPage {
+  width: 68%;
+
+}
+
+.component1 {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  border: solid 1px black;
+  border-radius: 10px;
+  /* width: 100%; */
+}
+
+
+
+.News {
+  width: 70%;
+  border: solid black 1px;
+  border-radius: 10px;
+  height: 200px;
+  color: rgb(255, 255, 255);
+  margin: 5px;
+  font-size: x-large;
+  background-image: url("https://source.unsplash.com/user/c_v_r/500x100");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.NewsAll {
+  font-size: x-large;
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 5px;
+
+  width: 25%;
+  border: solid black 1px;
+  border-radius: 10px;
+  height: 200px;
+}
+
+.news1 {
+  background-image: url("https://source.unsplash.com/user/c_v_r/500x100");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90px;
+  border: solid black 1px;
+  border-radius: 10px;
+  /* margin: 5px; */
+}
+
+.news2 {
+  background-image: url("https://source.unsplash.com/user/c_v_r/500x100");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90px;
+  border: solid black 1px;
+  border-radius: 10px;
+  /* margin: 5px; */
+
+}
+
+.TopBrands {
+  margin: 5px;
+  width: 25%;
+  border: solid black 1px;
+  border-radius: 2px;
+  height: 200px;
+  background-image: url("https://source.unsplash.com/user/c_v_r/200x100");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.component2 {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  border: solid 1px black;
+  border-radius: 10px;
+  /* width: 100%; */
+  margin: 10px;
+  padding: 10px;
+}
+
+.componentContainer {
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.componentHeadings {
+  padding-top: 0px 10px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.component {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.subcomponent {
+  height: 90%;
+  width: 80px;
+  background-image: url("https://source.unsplash.com/user/c_v_r/500x100");
+  /* margin: 10px; */
+  border: solid 1px black;
+}
+
+.footer {
+  padding: 50px 100px;
+  font-weight: bolder;
+  background-color: #182937;
+  color: white;
+  font-size: x-large;
+  display: flex;
+  flex-direction: column;
+}
+
+.domainname {
+  font-size: xx-large;
+  padding: 10px;
+  margin: 5px;
+}
+
+.links {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* flex-direction: column; */
+}
+
+.colLinks {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  margin: 5px;
+  padding: 5px;
+}
+
+.colLinks>div {
+  padding: 10px 30px;
+}
+
+.copyright {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright1 {
+  padding: 10px;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.terms {
+  padding: 10px;
+  justify-content: flex-end;
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.img {
+  background-size: 100% 100%;
+}
