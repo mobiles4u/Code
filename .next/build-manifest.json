@@ -15,11 +15,6 @@
     "static/development/_middlewareManifest.js"
   ],
   "pages": {
-    "/Careers": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Careers.js"
-    ],
     "/News": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
