@@ -14,7 +14,7 @@ function TermsAndConditions() {
             </div>
             <div className={styles.container__main__content__mainleft__pagecontent}>
               <div className={styles.container__main__content__mainleft__pagecontent__pic}>
-                <img src="../images/" alt="" />
+                {/* <img src="../images/" alt="" /> */}
               </div>
               <div className={styles.container__main__content__mainleft__pagecontent__info}>content
                 <div className={styles.container__main__content__mainleft__pagecontent__info__price}>

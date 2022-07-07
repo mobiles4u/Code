@@ -3,6 +3,7 @@ import BannerAd from '../components/BannerAd'
 import styles from '../../mobiles4u/styles/news.module.scss'
 import TopBrand from '../components/subcomponents/TopBrand'
 import Link from 'next/link'
+import img from '../images/download.jpg'
 import Image from 'next/image'
 function News() {
   return (
@@ -16,10 +17,12 @@ function News() {
             </div>
             <div className={styles.container__main__content__mainleft__pagecontent}>
               <div className={styles.container__main__content__mainleft__pagecontent__pic}>
-                <img className={styles.container__main__content__mainleft__pagecontent__pic__img}
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTNLrdq0g7fu6i_TeslNdo8hTxc_X3cAP9jA&usqp=CAU"
-
-                  alt="img-mobile" />
+                <Image
+                  src={img}
+                  alt="img-mobile"
+                  height={760}
+                  width={160}
+                />
                 <div className={styles.container__main__content__mainleft__pagecontent__pic__buttons}>
                   <button className={styles.container__main__content__mainleft__pagecontent__pic__buttons__button}>+ - </button>
                   <button className={styles.container__main__content__mainleft__pagecontent__pic__buttons__button}>+ - </button>
@@ -124,7 +127,7 @@ function News() {
             <TopBrand />
             <br />
             <TopBrand />
-          
+
           </div>
         </div>
         <BannerAd />
@@ -194,7 +197,7 @@ function News() {
             <div className={styles.container__main__content__mainleft2__center}>
               <h3>Samsung Y2 Prices in Pakistan</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor laboriosam nostrum qui adipisci repellendus quis officia veniam aperiam libero? Quam blanditiis provident dolores expedita dolor odit quasi minus maiores quis?</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit beatae ullam veritatis sint quam, cum itaque, reiciendis obcaecati molestias iure, atque corporis placeat? Magnam id deserunt neque assumenda numquam incidunt.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit beatae ullam veritatis sint quam, cum itaque, reiciendis obcaecati molestias iure, atque corporis placeat? Magnam id deserunt neque assumenda numquam incidunt.</p>
             </div>
 
           </div>

@@ -17,7 +17,7 @@ function AboutUs() {
                             <p>
                                <p> The mobile industry has changed the way people interact with friends, businesses, 
                                 and families.Whether upgrading your phone, trying to find a new one, or needing help
-                                 finding out what the latest phones offer, we've got something for you!</p>
+                                 finding out what the latest phones offer, we have got something for you!</p>
                                  <p>  From the i - phones, Samsung, and other phone brands, Mobiles4U provides information 
                                 on a wide range of mobile phone prices in pakistan for you to make informed purchase
                                  decisions.</p>
@@ -27,8 +27,8 @@ function AboutUs() {
                                  <p>  We provide reviews, rumors, specs, and prices(with local availability and
                                  links to retailers where applicable) 
                                 for the latest products in the mobile industry on our website.</p>
-                                <p>  Plus, if you're still undecided about your next phone purchase 
-                                because of conflicting info and epic rumors, don't worry.We've
+                                <p>  Plus, if you are still undecided about your next phone purchase 
+                                because of conflicting info and epic rumors, do npt worry.We have
                                  covered you with simplified explanations so you can make your own 
                                  decision from a cool place.</p>
                                  <p> We are an independent review site for mobile phones.All the
