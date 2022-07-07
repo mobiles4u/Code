@@ -15,7 +15,7 @@ function PrivacyPolicy() {
             </div>
             <div className={styles.container__main__content__mainleft__pagecontent}>
               <h3><span> <b> Mobiles4u</b></span> Privacy Policy</h3>
-              <p>   The following Privacy Policies govern how <span> <b> Mobiles4u</b></span> collects and utilizes the information obtained from users (each "User") " of the <Link href='/Home'> www.mobiles4u.com.pk</Link>. Mobiles4u.com.pk , along with its services, is subject to the following privacy and data protection policies.
+              <p>   The following Privacy Policies govern how <span> <b> Mobiles4u</b></span> collects and utilizes the information obtained from users (each  User ) z of the <Link href='/Home'> www.mobiles4u.com.pk</Link>. Mobiles4u.com.pk , along with its services, is subject to the following privacy and data protection policies.
               </p>
               <h3> Individual Identification Details</h3>
               <p> Depending on the circumstances, we may collect Users  personal information. However, it is not restricted to when Users browse our website, fill out a form, or participate in other actions, services, features, or resources we offer. Users might be asked for names, if appropriate, or email addresses and names.
@@ -26,7 +26,7 @@ function PrivacyPolicy() {
               If you give us personal details, you agree that we can store them in our database and send it to other places.
               <h4> Cookies And Their Use</h4>
               <p>
-                If you visit our site, we may store details on your device. The information we hold will be a "cookie" or similar file. Cookies are small bits of data stored on your computer, not on our official site. Cookies can t spy on you or steal your information. They can t get into your hard drive or steal data.
+                If you visit our site, we may store details on your device. The information we hold will be a  cookie  or similar file. Cookies are small bits of data stored on your computer, not on our official site. Cookies can t spy on you or steal your information. They can t get into your hard drive or steal data.
                 They are merely a way to help you navigate websites in the most efficient way possible. Cookies provide information tailored to your preferences and stop you from entering all your data every connection.
                 We might use an external advertising server to display ads on our site or mobile applications. These advertisements may include cookies. The company that hosts the promotions may receive cookies from outside banner advertisements. We don t have data that could prove the existence of cookie usage by the advertising server company.
               </p>
@@ -74,7 +74,7 @@ function PrivacyPolicy() {
               <h3>  Google AdSense</h3>
               <p>  Google could display certain ads. Using the DART cookie can show ads
                 to people based on how often they visit our site and other sites on the
-                internet. DART uses "non personally identifiable information" and doesn t
+                internet. DART uses  non personally identifiable information  and doesn t
                 keep track of your name, email address, street address, and other private
                 details. You can choose not to use the DART cookie by going to
                 http://www.domain.com/privacy_ads.html and reading Google s ad
