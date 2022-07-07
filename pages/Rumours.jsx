@@ -1,11 +1,11 @@
 import React from 'react'
 
-function rumours() {
+function Rumours() {
   return (
     <div>
-      I am rumours page
+      I am Rumours page
     </div>
   )
 }
 
-export default rumours
+export default Rumours

@@ -3,7 +3,7 @@ import BannerAd from '../components/BannerAd'
 import Link from 'next/link'
 import styles from '../../mobiles4u/styles/aboutus.module.scss'
 import TopBrand from '../components/subcomponents/TopBrand'
-function AboutUs() {
+function Careers() {
     return (
         <div className={styles.container}>
             <div className={styles.container__main}>
@@ -35,4 +35,4 @@ function AboutUs() {
     )
 }
 
-export default AboutUs
+export default Careers

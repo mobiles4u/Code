@@ -1,11 +1,11 @@
 import React from 'react'
 
-function compare() {
+function Compare() {
   return (
     <div>
-      I am compare page
+      I am Compare page
     </div>
   )
 }
 
-export default compare
+export default Compare

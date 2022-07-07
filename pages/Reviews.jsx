@@ -1,11 +1,11 @@
 import React from 'react'
 
-function reviews() {
+function Reviews() {
   return (
     <div>
-      I am reviews page
+      I am Reviews page
     </div>
   )
 }
 
-export default reviews
+export default Reviews
