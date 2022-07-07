@@ -3,7 +3,7 @@ import BannerAd from '../components/BannerAd'
 import Link from 'next/link'
 import styles from '../../mobiles4u/styles/privacyPolicy.module.scss'
 import TopBrand from '../components/subcomponents/TopBrand'
-function News() {
+function PrivacyPolicy() {
   return (
     <div className={styles.container}>
       <div className={styles.container__main}>
@@ -108,3 +108,11 @@ function News() {
             <TopBrand />
             <br />
             <TopBrand />
+         </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default PrivacyPolicy
