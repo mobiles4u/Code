@@ -2,5 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/News": "pages/News.js"
+  "/Careers": "pages/Careers.js",
+  "/News": "pages/News.js",
+  "/PrivacyPolicy": "pages/PrivacyPolicy.js"
 }
