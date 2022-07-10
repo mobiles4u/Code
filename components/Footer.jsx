@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../components/styles/footer.module.scss'
 import Link from 'next/link'
-
+// hi
 function Footer() {
   return (
     <div className={styles.container}>
