@@ -10,7 +10,7 @@ function TopBrand({title,data}) {
         <div className={styles.container__topBrand}>
         
             {data.map((data) => (
-          <Link href="#">
+          <Link href="/Home">
            <div className={styles.container__topBrand__items}>{data}
             </div>
             </Link>

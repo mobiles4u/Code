@@ -5,7 +5,7 @@
     font-size: small;
 
     &__main {
-        width: 60%;
+        width: 70%;
         display: flex;
         flex-direction: column;
 
@@ -143,9 +143,11 @@
                         justify-content: space-evenly;
                         padding: 5px;
 
-                        &__pros{
+                        &__pros {
                             background-color: #e6ffa0;
-                        } &__cons{
+                        }
+
+                        &__cons {
                             background-color: #d98a78;
                         }
                     }
@@ -178,20 +180,23 @@
                         width: 100%;
                         background-color: rgb(114, 169, 169);
 
-                      
+
                         &:nth-child(even) {
                             background-color: #ffffff;
                         }
+
                         &:nth-child(odd) {
                             background-color: rgb(136, 104, 104);
                         }
 
                         &__tr {
                             margin: 5px 10px;
+
                             :hover {
                                 background-color: rgb(226, 233, 147);
                                 color: red;
                             }
+
                             &__tdTitle {
                                 width: 15%;
                                 padding: 8px;
@@ -203,7 +208,7 @@
                             &__tdSubtitle {
                                 width: 25%;
                                 padding: 8px;
-                                color:rgb(214, 214, 214);
+                                color: rgb(214, 214, 214);
                                 border-bottom: 1px solid rgb(241, 237, 237);
                                 background-color: rgb(109, 109, 109);
                             }
@@ -211,7 +216,7 @@
                             &__tdDesc {
                                 width: 60%;
                                 padding: 8px;
-                                font-weight:lighter;
+                                font-weight: lighter;
                                 border-bottom: 1px solid rgb(241, 237, 237);
                             }
 
@@ -221,40 +226,42 @@
                     }
                 }
 
-              
+
             }
+
             &__mainright1 {
                 width: 25%;
                 background-color: rgb(255, 255, 255);
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-    
-                &__rdevices{
+
+                &__rdevices {
                     width: 100%;
                     height: 50%;
                     border: 1px solid black;
                     margin-top: 10px;
-    
+
                 }
-                &__ldevices{
+
+                &__ldevices {
                     width: 100%;
                     margin-bottom: 10px;
                     height: 50%;
                     border: 1px solid black;
 
-    
+
                 }
             }
 
-            &__mainleft2{
+            &__mainleft2 {
                 background-color: rgb(255, 255, 255);
                 width: 70%;
                 display: flex;
                 justify-content: flex-end;
 
                 &__center {
-                    background-color: rgb(255, 255, 255);
+                    background-color: rgb(182, 182, 182);
                     width: 70%;
                     display: flex;
                     flex-direction: column;
@@ -262,34 +269,36 @@
 
                 }
 
-              
+
             }
+
             &__mainright2 {
                 width: 25%;
                 background-color: rgb(255, 255, 255);
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-    
-                &__rdevices{
+
+                &__rdevices {
                     width: 100%;
                     height: 50%;
                     border: 1px solid black;
                     margin-top: 10px;
-    
+
                 }
-                &__ldevices{
+
+                &__ldevices {
                     width: 100%;
                     margin-bottom: 10px;
                     height: 50%;
                     border: 1px solid black;
 
-    
+
                 }
             }
         }
 
-      
+
     }
 
 

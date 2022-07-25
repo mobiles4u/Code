@@ -141,7 +141,6 @@ function News() {
             <div className={styles.container__main__content__mainleft1__center}>
 
               <table className={styles.container__main__content__mainleft1__center__table} id="customers">
-
                 <tr className={styles.container__main__content__mainleft1__center__table__tr}>
                   <td className={styles.container__main__content__mainleft1__center__table__tr__tdTitle}><b>Camera</b></td>
                   <td className={styles.container__main__content__mainleft1__center__table__tr__tdSubtitle}><b> 12 Pixels</b></td>
@@ -185,11 +184,8 @@ function News() {
                   <td className={styles.container__main__content__mainleft1__center__table__tr__tdSubtitle}> <b> steel</b></td>
                   <td className={styles.container__main__content__mainleft1__center__table__tr__tdDesc}>Hd Lorem ipsum, dolor sit amet consectetur adipisicing elit.</td>
                 </tr>
-
               </table>
-
             </div>
-
           </div>
           <div className={styles.container__main__content__mainright1}>
           <TopBrand  title={title1} data={arr}  />
@@ -199,7 +195,6 @@ function News() {
           <TopBrand  title={title1} data={arr}  />
           <TopBrand  title={title1} data={arr}  />
           <TopBrand  title={title1} data={arr}  />
-
           </div>
         </div>
         <BannerAd />
@@ -221,5 +216,4 @@ function News() {
     </div >
   )
 }
-
 export default News

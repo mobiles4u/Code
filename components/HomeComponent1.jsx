@@ -14,9 +14,7 @@ import TopBrand from './subcomponents/TopBrand'
 function HomeComponent1({ title, condition }) {
     // let title = "Top Brands"
     let arr = ["Apple", "Samsung", "Oppo", "Blackberry", "Nokia", "Huaweae", "MI", "Motrola", "SonyEricson", "Oneplus", ""];
-  
-    console.log(condition);
-    return (
+      return (
         <div className={styles.container}>
             <div className={styles.container__componentHeadings}>
                 <div className={styles.container__componentHeadings__heading1}>{title}</div>
