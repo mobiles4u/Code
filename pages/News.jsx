@@ -40,8 +40,8 @@ function News() {
                   <div className={styles.container__main__content__mainleft__pagecontent__info__price__indollars}>US-200</div>
                 </div>
                 <div className={styles.container__main__content__mainleft__pagecontent__info__description}>
-                  <p className={styles.container__main__content__mainleft__pagecontent__info__description__ptag}> <b>Disclaimer</b>: dolor sit amet consectetur adipisicing elit. Quis possimus
-                    dolore iusto distinctio soluta eligendi dolor ipsum, libero. </p></div>
+                  <div className={styles.container__main__content__mainleft__pagecontent__info__description__ptag}> <b>Disclaimer</b>: dolor sit amet consectetur adipisicing elit. Quis possimus
+                    dolore iusto distinctio soluta eligendi dolor ipsum, libero. </div></div>
                 <div className={styles.container__main__content__mainleft__pagecontent__info__specs}>
                   <div className={styles.container__main__content__mainleft__pagecontent__info__specs__heading}>
                     <div className={styles.container__main__content__mainleft__pagecontent__info__specs__heading__title}> <b> Key Specs </b></div>
@@ -192,8 +192,14 @@ function News() {
 
           </div>
           <div className={styles.container__main__content__mainright1}>
-            <div className={styles.container__main__content__mainright1__ldevices}>latest devices </div>
-            <div className={styles.container__main__content__mainright1__rdevices}>Related devices </div>
+          <TopBrand  title={title1} data={arr}  />
+          <TopBrand  title={title1} data={arr}  />
+          <TopBrand  title={title1} data={arr}  />
+          <TopBrand  title={title1} data={arr}  />
+          <TopBrand  title={title1} data={arr}  />
+          <TopBrand  title={title1} data={arr}  />
+          <TopBrand  title={title1} data={arr}  />
+
           </div>
         </div>
         <BannerAd />
@@ -201,8 +207,8 @@ function News() {
           <div className={styles.container__main__content__mainleft2}>
             <div className={styles.container__main__content__mainleft2__center}>
               <h3>Samsung Y2 Prices in Pakistan</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor laboriosam nostrum qui adipisci repellendus quis officia veniam aperiam libero? Quam blanditiis provident dolores expedita dolor odit quasi minus maiores quis?</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit beatae ullam veritatis sint quam, cum itaque, reiciendis obcaecati molestias iure, atque corporis placeat? Magnam id deserunt neque assumenda numquam incidunt.</p>
+              <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor laboriosam nostrum qui adipisci repellendus quis officia veniam aperiam libero? Quam blanditiis provident dolores expedita dolor odit quasi minus maiores quis?</div>
+              <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit beatae ullam veritatis sint quam, cum itaque, reiciendis obcaecati molestias iure, atque corporis placeat? Magnam id deserunt neque assumenda numquam incidunt.</div>
             </div>
 
           </div>

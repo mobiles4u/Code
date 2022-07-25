@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&display=swap'); */
  
  html,
  body {
    padding: 0;
    margin: 0;
-  //  margin-bottom:90px ;
    font-family: 'Gentium Book Plus', serif;
  }
 
@@ -17,6 +16,3 @@
    cursor: pointer;
  }
 
- // {
- //   box-sizing: border-box;
- // } 

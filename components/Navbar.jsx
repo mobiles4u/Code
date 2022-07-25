@@ -3,8 +3,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../components/styles/navbar.module.scss'
 function Navbar() {
-  return (
-    <div className={styles.container}>
+  return (    <> 
+     <div className={styles.container}>
       <div className={styles.container__navbar}>
         <div className={styles.container__navbar__upperNavbar}>
           <div className={styles.container__navbar__upperNavbar__width}>
@@ -30,6 +30,8 @@ function Navbar() {
         </div>
       </div>
     </div>
+    </>
+
   )
 }
 

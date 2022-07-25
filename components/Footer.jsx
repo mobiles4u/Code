@@ -3,7 +3,7 @@ import styles from '../components/styles/footer.module.scss'
 import Link from 'next/link'
 
 function Footer() {
-  return (
+  return (<>
     <div className={styles.container}>
       <div className={styles.container__footer}>
         <div className={styles.container__footer__domainname}>Mobile4u</div>
@@ -55,6 +55,8 @@ function Footer() {
         </div>
       </div>
     </div>
+  </>
+
   )
 }
 
