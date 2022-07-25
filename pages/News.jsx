@@ -11,7 +11,6 @@ function News() {
       let arr = ["Apple", "Samsung", "Oppo", "Blackberry", "Nokia", "Huaweae", "MI", "Motrola", "SonyEricson", "Oneplus", ""];
   
   return (
-   
     <div className={styles.container}>
       <div className={styles.container__main}>
         <BannerAd />
@@ -49,7 +48,6 @@ function News() {
                   </div>
                   <div className={styles.container__main__content__mainleft__pagecontent__info__specs__andriodV}>*andriod v12</div>
                   <div className={styles.container__main__content__mainleft__pagecontent__info__specs__keypoints}>
-
                     <div className={styles.container__main__content__mainleft__pagecontent__info__specs__keypoints__ul}>
                       <div className={styles.container__main__content__mainleft__pagecontent__info__specs__keypoints__ul__li} ><b> Performance</b>
                         <div className={styles.container__main__content__mainleft__pagecontent__info__specs__keypoints__ul__rating}><b> -------</b></div>
@@ -59,7 +57,6 @@ function News() {
                       <div className={styles.container__main__content__mainleft__pagecontent__info__specs__keypoints__ul__li} >4k Screen</div>
                       <div className={styles.container__main__content__mainleft__pagecontent__info__specs__keypoints__ul__li} >Bullet Proof</div>
                     </div>
-
                     <div className={styles.container__main__content__mainleft__pagecontent__info__specs__keypoints__ul}>
                       <div className={styles.container__main__content__mainleft__pagecontent__info__specs__keypoints__ul__li} ><b>Display</b>
                         <div className={styles.container__main__content__mainleft__pagecontent__info__specs__keypoints__ul__rating}><b> -------</b></div>
@@ -132,15 +129,14 @@ function News() {
             <TopBrand  title={title} data={arr} />
             <br />
             <TopBrand  title={title1} data={arr}  />
-
           </div>
         </div>
         <BannerAd />
         <div className={styles.container__main__content}>
           <div className={styles.container__main__content__mainleft1}>
             <div className={styles.container__main__content__mainleft1__center}>
-
               <table className={styles.container__main__content__mainleft1__center__table} id="customers">
+                <tbody>
                 <tr className={styles.container__main__content__mainleft1__center__table__tr}>
                   <td className={styles.container__main__content__mainleft1__center__table__tr__tdTitle}><b>Camera</b></td>
                   <td className={styles.container__main__content__mainleft1__center__table__tr__tdSubtitle}><b> 12 Pixels</b></td>
@@ -184,6 +180,7 @@ function News() {
                   <td className={styles.container__main__content__mainleft1__center__table__tr__tdSubtitle}> <b> steel</b></td>
                   <td className={styles.container__main__content__mainleft1__center__table__tr__tdDesc}>Hd Lorem ipsum, dolor sit amet consectetur adipisicing elit.</td>
                 </tr>
+                </tbody>
               </table>
             </div>
           </div>
@@ -205,7 +202,6 @@ function News() {
               <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor laboriosam nostrum qui adipisci repellendus quis officia veniam aperiam libero? Quam blanditiis provident dolores expedita dolor odit quasi minus maiores quis?</div>
               <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit beatae ullam veritatis sint quam, cum itaque, reiciendis obcaecati molestias iure, atque corporis placeat? Magnam id deserunt neque assumenda numquam incidunt.</div>
             </div>
-
           </div>
           {/* <div className={styles.container__main__content__mainright2}>
             <div className={styles.container__main__content__mainright2__ldevices}>latest devices </div>
