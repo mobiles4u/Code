@@ -6,13 +6,16 @@
     align-items: center;
 
     &__box {
+        display: flex;
+        justify-content: center;
         height: 150px;
         width: 80%;
-        border: 1px solid black;
+        // border: 1px solid black;
 
     }
 
     &__name {
         font-weight: bold;
+        font-size: 11px;
     }
 }

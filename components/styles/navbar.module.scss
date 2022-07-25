@@ -18,8 +18,9 @@
             width: 100%;
             background-color: black;
 
+
             &__width {
-                width: 60%;
+                width: 70%;
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
@@ -29,6 +30,11 @@
                 &__logo {
                     cursor: pointer;
                     color: rgb(255, 255, 255);
+                    font-weight:bolder;
+                    font-size: x-large;
+                    background-Image: linear-gradient(to right, #462523 0, #cb9b51 3%, #f6e27a 45%, #f6f2c0 50%, #f6e27a 55%, #cb9b51 95%, #462523 100%);
+                    color: transparent;
+                    -webkit-background-clip: text;
                 }
 
                 &__SearchBar input {
@@ -47,8 +53,8 @@
             border-bottom: 1px solid black;
 
             &__width {
-                width: 60%;
-         
+                width: 70%;
+
 
                 &__items {
                     display: flex;

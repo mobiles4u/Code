@@ -1,10 +1,21 @@
+import Link from 'next/link';
 import React from 'react'
-import styles from '../subcomponents/styles/topBrand.module.scss'
-function TopBrand() {
+import styles from './styles/topBrand.module.scss'
+function TopBrand({title,data}) {
+
     return (
         <div className={styles.container}>
-            <div className={styles.container__topBrand}>Top Brand or Banner
+           
+        <div>{title}</div>
+        <div className={styles.container__topBrand}>
+        
+            {data.map((data) => (
+          <Link href="#">
+           <div className={styles.container__topBrand__items}>{data}
             </div>
+            </Link>
+            ))}  
+        </div>
         </div>
     )
 }

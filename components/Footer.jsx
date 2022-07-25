@@ -9,15 +9,16 @@ function Footer() {
         <div className={styles.container__footer__domainname}>Mobile4u</div>
         <div className={styles.container__footer__linkscontainer}>
           <div className={styles.container__footer__linkscontainer__links}>
+
             <div className={styles.container__footer__linkscontainer__links__colLinks}>
-              <div className={styles.container__footer__linkscontainer__links__colLinks__item}>info</div>
+              <div className={styles.container__footer__linkscontainer__links__colLinks__item}> <b className={styles.container__footer__linkscontainer__links__colLinks__item__b}>Info</b></div>
               <div className={styles.container__footer__linkscontainer__links__colLinks__item} >get in touch</div>
               <div className={styles.container__footer__linkscontainer__links__colLinks__item}>social</div>
               <div className={styles.container__footer__linkscontainer__links__colLinks__item}>what we offer</div>
             </div>
             <div className={styles.container__footer__linkscontainer__links__colLinks}>
               <div className={styles.container__footer__linkscontainer__links__colLinks__item}>
-                <Link href='/AboutUs'>about us</Link>
+                <Link href='/AboutUs'><b className={styles.container__footer__linkscontainer__links__colLinks__item__b}>About us</b></Link>
               </div>
               <div className={styles.container__footer__linkscontainer__links__colLinks__item}>contact us</div>
               <div className={styles.container__footer__linkscontainer__links__colLinks__item}>facebook</div>
@@ -25,14 +26,14 @@ function Footer() {
             </div>
 
             <div className={styles.container__footer__linkscontainer__links__colLinks}>
-              <div className={styles.container__footer__linkscontainer__links__colLinks__item}>FAQs</div>
+              <div className={styles.container__footer__linkscontainer__links__colLinks__item}><b className={styles.container__footer__linkscontainer__links__colLinks__item__b}>FAQs</b></div>
               <div className={styles.container__footer__linkscontainer__links__colLinks__item}>advertise</div>
               <div className={styles.container__footer__linkscontainer__links__colLinks__item}>twitter</div>
               <div className={styles.container__footer__linkscontainer__links__colLinks__item}>news</div>
             </div>
 
             <div className={styles.container__footer__linkscontainer__links__colLinks}>
-              <div className={styles.container__footer__linkscontainer__links__colLinks__item}>blogs</div>
+              <div className={styles.container__footer__linkscontainer__links__colLinks__item}><b className={styles.container__footer__linkscontainer__links__colLinks__item__b}>Blogs</b></div>
               <div className={styles.container__footer__linkscontainer__links__colLinks__item}>
                 <Link href='/Careers'>careers</Link>
               </div>

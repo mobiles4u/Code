@@ -1,4 +1,4 @@
-import HomePage from "./home"
+import HomePage from "./Home"
 import Head from 'next/head'
 
 

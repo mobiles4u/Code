@@ -1,6 +1,26 @@
-.container{
+.container {
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 0, 0); 
+    border: 12px solid rgb(227, 230, 20);
+    background-color: rgb(20, 20, 20);
+
     &__topBrand {
-    height: 200px;
-    border: 1px solid black;
-    width: 100%;
-}}
+        display: flex;
+        // height: 200px;
+        width: 100%;
+        flex-wrap: wrap;
+        overflow: hidden;
+
+        &__items {
+            // display: flex;
+            padding: 2px;
+            color: rgb(255, 255, 255);
+            cursor: pointer;
+            // background-Image: linear-gradient(to right, #462523 0, #cb9b51 22%, #f6e27a 45%, #f6f2c0 50%, #f6e27a 55%, #cb9b51 78%, #462523 100%);
+            // color: transparent;
+            // -webkit-background-clip: text;
+
+        }
+    }
+}
