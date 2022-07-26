@@ -8,7 +8,7 @@ import Image from 'next/image'
 function News() {
       let title = "My Brands"
       let title1 = "New Brands"
-      let arr = ["Apple", "Samsung", "Oppo", "Blackberry", "Nokia", "Huaweae", "MI", "Motrola", "SonyEricson", "Oneplus", ""];
+      let arr = ["Apple", "Samsung", "Oppo", "Blackberry", "Nokia", "Huaweae", "MI", "Motrola", "SonyEricson", "Oneplus", "Iphone"];
   
   return (
     <div className={styles.container}>
@@ -111,7 +111,7 @@ function News() {
             <div className={styles.container__main__content__mainleft__pagecontent__center}>
               <div className={styles.container__main__content__mainleft__pagecontent__center__pros}>
                 <div><b> Pros</b></div>
-                <div>Enugh memory</div>
+                <div>Enough memory</div>
                 <div>Good Looks</div>
                 <div>reliable</div>
                 <div>high battery timing</div>

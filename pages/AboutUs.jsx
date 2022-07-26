@@ -4,7 +4,7 @@ import styles from '../../mobiles4u/styles/aboutus.module.scss'
 import TopBrand from '../components/subcomponents/TopBrand'
 function AboutUs() {
     let title = "Top Brands"
-    let arr = ["Apple", "Samsung", "Oppo", "Blackberry", "Nokia", "Huaweae", "MI", "Motrola", "SonyEricson", "Oneplus", ""];
+    let arr = ["Apple", "Samsung", "Oppo", "Blackberry", "Nokia", "Huaweae", "MI", "Motrola", "SonyEricson", "Oneplus", "Iphone"];
 
     return (
         <>        <div className={styles.container}>

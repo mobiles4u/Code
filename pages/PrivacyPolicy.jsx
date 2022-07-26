@@ -5,7 +5,7 @@ import styles from '../../mobiles4u/styles/privacyPolicy.module.scss'
 import TopBrand from '../components/subcomponents/TopBrand'
 function PrivacyPolicy() {
   let title = "Top Brands"
-  let arr = ["Apple", "Samsung", "Oppo", "Blackberry", "Nokia", "Huaweae", "MI", "Motrola", "SonyEricson", "Oneplus", ""];
+  let arr = ["Apple", "Samsung", "Oppo", "Blackberry", "Nokia", "Huaweae", "MI", "Motrola", "SonyEricson", "Oneplus", "Iphone"];
 
   return (
 
