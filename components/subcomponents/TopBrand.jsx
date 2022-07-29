@@ -10,10 +10,11 @@ function TopBrand({ title, data }) {
             <div className={styles.container__topBrand}>
 
                 {data.map((data, i) => (
-                    <Link href="/Home">
-                        <div className={styles.container__topBrand__items} key={i}>{data}
-                        </div>
-                    </Link>
+                    // <Link >
+                        <Link href="/Home" className={styles.container__topBrand__items} key={i}>
+                            {data}
+                        </Link>
+                    //  </Link>
                 ))}
             </div>
         </div>
