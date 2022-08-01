@@ -6,15 +6,13 @@ function TopBrand({ title, data }) {
     return (
         <div className={styles.container}>
 
-            <div>{title}</div>
+            <div className={styles.container__topBrandTitle}>{title}</div>
             <div className={styles.container__topBrand}>
 
                 {data.map((data, i) => (
-                    // <Link >
-                        <Link href="/Home" className={styles.container__topBrand__items} key={i}>
-                            {data}
-                        </Link>
-                    //  </Link>
+                    <Link href="/Home" className={styles.container__topBrand__items} style={{margin:'2px'}} key={i}>
+                        {data}
+                    </Link>
                 ))}
             </div>
         </div>

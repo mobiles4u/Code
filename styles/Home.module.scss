@@ -1,13 +1,23 @@
-.container{
+.container {
     width: 100%;
     display: flex;
     justify-content: center;
-    
-    &__home{
+
+    &__home {
         width: 70%;
-        
+// &__topbrandContent{}
+      &__topbrandContent {
+            width: 75%;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid black;
+            margin-bottom: 20px;
+
+            &__item {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
     }
 }
-
-
-

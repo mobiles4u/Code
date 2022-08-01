@@ -17,10 +17,10 @@ function Careers() {
                             Careers
                         </div>
                         <div className={styles.container__main__content__mainleft__pagecontent}>
-                            <h3> Careers </h3>
+                            {/* <h3> Careers </h3> */}
                             <div>
-                                At Mobiles4u, we believe in allowing our youth to grow and develop their skills. We offer a variety of options for them to challenge themselves and learn new things. Our culture is one of collaboration and respect. Jobs and careers are two different things. The opportunity to do work that makes a significant contribution towards something constructive. The prospect of spending time surrounded by intelligent, ambitious, and motivated people. At mobiles4u, you can expect to do work like this. Is not it intriguing?
-                                Please come and join us.
+                               <p> At Mobiles4u, we believe in allowing our youth to grow and develop their skills. We offer a variety of options for them to challenge themselves and learn new things.</p> <p> Our culture is one of collaboration and respect. Jobs and careers are two different things. The opportunity to do work that makes a significant contribution towards something constructive. The prospect of spending time surrounded by intelligent, ambitious, and motivated people. At mobiles4u, you can expect to do work like this. Is not it intriguing?
+                               </p> Please come and join us.
                                 To apply for a position with Mobiles4u, please submit your resume with the relevant subject line at mobiles4u.work@gmail.com. Once we have reviewed your application, we will contact you to schedule an interview.
                             </div>
                         </div>

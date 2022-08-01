@@ -14,7 +14,7 @@ import TopBrand from './subcomponents/TopBrand'
 function HomeComponent1({ title, condition }) {
     // let title = "Top Brands"
     const [checkCondition, setCheckCondition] = useState(condition)
-    let arr = ["Apple", "Samsung", "Oppo", "Blackberry", "Nokia", "Huaweae", "MI", "Motrola", "SonyEricson", "Oneplus", ""];
+    let arr = ["Apple", "Samsung", "Oppo", "Blackberry", "Nokia", "Huaweae", "Sony", "Oneplus"];
     return (
         <div className={styles.container}>
             <div className={styles.container__componentHeadings}>
@@ -34,7 +34,7 @@ function HomeComponent1({ title, condition }) {
                 </div>
 
                 <div className={styles.container__component__right} >
-                    {/* {checkCondition ? <TopBrand title={title} data={arr} /> : null} */}
+                    {checkCondition ? <TopBrand title={title} data={arr} /> : null}
 
                 </div>
             </div>

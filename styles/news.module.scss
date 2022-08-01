@@ -32,7 +32,7 @@
 
                     &__pic {
                         width: 26%;
-                        border: 1px solid black;
+                        // border: 1px solid black;
 
                         &__buttons {
                             display: flex;
@@ -99,7 +99,7 @@
                                         overflow: hidden;
                                         text-overflow: ellipsis;
                                         padding: 1px 2px;
-                                        background-color: rgb(251, 251, 251);
+                                        background-color: rgb(239, 239, 239);
                                         cursor: pointer;
 
                                     }
@@ -115,7 +115,7 @@
                                 display: flex;
                                 justify-content: space-evenly;
 
-                                &__moreinfo {}
+                                // &__moreinfo {}
                             }
                         }
 
@@ -125,7 +125,7 @@
 
                             &__comdiv {
                                 margin: 5px;
-                                background-color: aqua;
+                                background-color: rgb(227, 227, 227);
                                 width: 30%;
 
                                 &__butn {
@@ -136,7 +136,7 @@
                     }
 
                     &__center {
-                        background-color: rgb(248, 246, 246);
+                        background-color: rgb(216, 216, 216);
                         float: right;
                         width: 70%;
                         display: flex;
@@ -144,11 +144,11 @@
                         padding: 5px;
 
                         &__pros {
-                            background-color: #e6ffa0;
+                            // background-color: #e1e1e1;
                         }
 
                         &__cons {
-                            background-color: #d98a78;
+                            // background-color: #e3e3e3;
                         }
                     }
 
@@ -170,7 +170,7 @@
 
                 &__center {
                     background-color: rgb(255, 255, 255);
-                    width: 70%;
+                    width: 100%;
                     display: flex;
                     padding: 5px;
 
@@ -178,7 +178,7 @@
                         font-family: Arial, Helvetica, sans-serif;
                         border-collapse: collapse;
                         width: 100%;
-                        background-color: rgb(114, 169, 169);
+                        background-color: rgb(219, 219, 219);
 
 
                         &:nth-child(even) {
@@ -186,15 +186,15 @@
                         }
 
                         &:nth-child(odd) {
-                            background-color: rgb(136, 104, 104);
+                            background-color: rgb(197, 197, 197);
                         }
 
                         &__tr {
                             margin: 5px 10px;
 
                             :hover {
-                                background-color: rgb(226, 233, 147);
-                                color: red;
+                                background-color: rgb(0, 0, 0);
+                                color: rgb(255, 255, 255);
                             }
 
                             &__tdTitle {
@@ -202,15 +202,15 @@
                                 padding: 8px;
                                 color: rgb(255, 255, 255);
                                 border-bottom: 1px solid rgb(241, 237, 237);
-                                background-color: rgb(64, 60, 55);
+                                background-color: rgb(136, 136, 136);
                             }
 
                             &__tdSubtitle {
                                 width: 25%;
                                 padding: 8px;
-                                color: rgb(214, 214, 214);
+                                color: rgb(255, 255, 255);
                                 border-bottom: 1px solid rgb(241, 237, 237);
-                                background-color: rgb(109, 109, 109);
+                                background-color: rgb(186, 186, 186);
                             }
 
                             &__tdDesc {
@@ -230,7 +230,8 @@
             }
 
             &__mainright1 {
-                width: 25%;
+                width: 10%;
+                height: 200px;
                 background-color: rgb(255, 255, 255);
                 display: flex;
                 flex-direction: column;
@@ -255,14 +256,14 @@
             }
 
             &__mainleft2 {
-                background-color: rgb(255, 255, 255);
+                background-color: rgb(232, 232, 232);
                 width: 70%;
                 display: flex;
                 justify-content: flex-end;
 
                 &__center {
-                    background-color: rgb(182, 182, 182);
-                    width: 70%;
+                    // background-color: rgb(182, 174, 174);
+                    width: 100%;
                     display: flex;
                     flex-direction: column;
                     padding: 5px;

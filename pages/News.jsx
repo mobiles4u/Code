@@ -3,12 +3,12 @@ import BannerAd from '../components/BannerAd'
 import styles from '../../mobiles4u/styles/news.module.scss'
 import TopBrand from '../components/subcomponents/TopBrand'
 import Link from 'next/link'
-import img from '../images/download.jpg'
+import img from '../images/homepage/vivoy55.jpg'
 import Image from 'next/image'
 function News() {
       let title = "My Brands"
       let title1 = "New Brands"
-      let arr = ["Apple", "Samsung", "Oppo", "Blackberry", "Nokia", "Huaweae", "MI", "Motrola", "SonyEricson", "Oneplus", "Iphone"];
+      let arr = ["Apple", "Samsung", "Oppo", "Blackberry", "Nokia", "Huaweae", "MI", "Motrola", "SonyEricson", "Oneplus", "Iphone","Apple", "Samsung", "Oppo", "Blackberry", "Nokia", "Huaweae", "MI", "Motrola", "SonyEricson", "Oneplus", "Iphone",];
   
   return (
     <div className={styles.container}>
@@ -127,8 +127,8 @@ function News() {
           </div>
           <div className={styles.container__main__content__mainright}>
             <TopBrand  title={title} data={arr} />
-            <br />
-            <TopBrand  title={title1} data={arr}  />
+            {/* <br /> */}
+            {/* <TopBrand  title={title1} data={arr}  /> */}
           </div>
         </div>
         <BannerAd />
@@ -184,21 +184,23 @@ function News() {
               </table>
             </div>
           </div>
-          <div className={styles.container__main__content__mainright1}>
+          {/* <div className={styles.container__main__content__mainright1}> */}
+          {/* <TopBrand  title={title} data={arr} /> */}
+
+          {/* <TopBrand  title={title1} data={arr}  /> */}
+          {/* <TopBrand  title={title1} data={arr}  />
           <TopBrand  title={title1} data={arr}  />
           <TopBrand  title={title1} data={arr}  />
           <TopBrand  title={title1} data={arr}  />
           <TopBrand  title={title1} data={arr}  />
-          <TopBrand  title={title1} data={arr}  />
-          <TopBrand  title={title1} data={arr}  />
-          <TopBrand  title={title1} data={arr}  />
-          </div>
+          <TopBrand  title={title1} data={arr}  /> */}
+          {/* </div> */}
         </div>
         <BannerAd />
         <div className={styles.container__main__content}>
           <div className={styles.container__main__content__mainleft2}>
             <div className={styles.container__main__content__mainleft2__center}>
-              <h3>Samsung Y2 Prices in Pakistan</h3>
+              <h2>Samsung Y2 Prices in Pakistan</h2>
               <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor laboriosam nostrum qui adipisci repellendus quis officia veniam aperiam libero? Quam blanditiis provident dolores expedita dolor odit quasi minus maiores quis?</div>
               <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit beatae ullam veritatis sint quam, cum itaque, reiciendis obcaecati molestias iure, atque corporis placeat? Magnam id deserunt neque assumenda numquam incidunt.</div>
             </div>

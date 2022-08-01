@@ -98,20 +98,7 @@ function PrivacyPolicy() {
           </div>
           <div className={styles.container__main__content__mainright}>
             <TopBrand title={title} data={arr} />
-            <br />
-            <TopBrand title={title} data={arr} />
-            <br />
-            <TopBrand title={title} data={arr} />
-            <br />
-            <TopBrand title={title} data={arr} />
-            <br />
-            <TopBrand title={title} data={arr} />
-            <br />
-            <TopBrand title={title} data={arr} />
-            <br />
-            <TopBrand title={title} data={arr} />
-            <br />
-            <TopBrand title={title} data={arr} />
+         
           </div>
         </div>
       </div>

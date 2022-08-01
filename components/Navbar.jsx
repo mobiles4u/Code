@@ -9,7 +9,7 @@ function Navbar() {
         <div className={styles.container__navbar__upperNavbar}>
           <div className={styles.container__navbar__upperNavbar__width}>
             <div className={styles.container__navbar__upperNavbar__width__logo}>
-              <div>Mobiles4u</div>
+              <div>Mobiles4U</div>
             </div>
             <div className={styles.container__navbar__upperNavbar__width__SearchBar}>
               <input type="text" placeholder="Search.." name="search" />
